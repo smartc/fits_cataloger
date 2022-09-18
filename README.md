@@ -13,10 +13,10 @@ Usage:
 
   3. Edit fitcat.py to define folders and information relating to cameras & telescopes
 
-          quarantine_dir = "/path/to/your/quarantine"				# define absolute path to your quarantine folder
-          image_dir = "/path/to/your/images" 						    # define absolute path to folder where you wish to store images
-          library_db = "/path/to/your/database.db"				  # define absolute path to sqlite3 database file that will store data about your images
-          restore_folder = "/path/to/a/temporary/folder"		# used only if you need to roll back changes (manual process)
+          quarantine_dir = "/path/to/your/quarantine"     # define absolute path to your quarantine folder
+          image_dir = "/path/to/your/images"              # define absolute path to folder where you wish to store images
+          library_db = "/path/to/your/database.db"        # define absolute path to sqlite3 database file that will store data about your images
+          restore_folder = "/path/to/a/temporary/folder"  # used only if you need to roll back changes (manual process)
           
           CAMERAS = [ ['CAMERA 1', x_pixels, y_pixels ], ['CAMERA 2', x_pixels, y_pixels] ]
           TELESCOPES = [ ['SCOPE 1', focal_length], ['SCOPE 2', focal_length] ]   
